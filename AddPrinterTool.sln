@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddPrinterTool", "AddPrinterTool\AddPrinterTool.csproj", "{FC41040E-1114-4270-B493-C83CA7850796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC41040E-1114-4270-B493-C83CA7850796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC41040E-1114-4270-B493-C83CA7850796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC41040E-1114-4270-B493-C83CA7850796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC41040E-1114-4270-B493-C83CA7850796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60183A9F-9F99-4784-A030-C20C624433FA}
+	EndGlobalSection
+EndGlobal

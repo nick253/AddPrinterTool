@@ -1,0 +1,18 @@
+﻿<Window x:Class="AddPrinterTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AddPrinterTool"
+        mc:Ignorable="d"
+        Title="FA Add Printer Tool" Height="200" Width="260">
+    <Grid>
+        <TextBox Name="txtIp" HorizontalAlignment="Left" Height="23" Margin="108,96,0,0" TextWrapping="Wrap" Text="172.22.32.30" VerticalAlignment="Top" Width="120" />
+        <TextBox Name="txtPrinter" HorizontalAlignment="Left" Height="23" Margin="108,54,0,0" TextWrapping="Wrap" Text="Nick's Printer" VerticalAlignment="Top" Width="120" />
+        <Label Content="Printer Name:" HorizontalAlignment="Left" Margin="12,51,0,0" VerticalAlignment="Top" Width="92" FontWeight="Bold"/>
+        <Label Content="IP Address:" HorizontalAlignment="Left" Margin="12,92,0,0" VerticalAlignment="Top" Width="92" FontWeight="Bold"/>
+        <Label Content="FA Add Printer" HorizontalAlignment="Left" Margin="12,17,0,0" VerticalAlignment="Top" Width="216" FontWeight="Bold" FontStyle="Italic" FontSize="16"/>
+        <Button Name="btnAddPrinter"  Content="Add Printer" HorizontalAlignment="Left" Margin="108,134,0,0" VerticalAlignment="Top" Width="120" />
+
+    </Grid>
+</Window>
